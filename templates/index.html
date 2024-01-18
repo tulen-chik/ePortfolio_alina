@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+<main>
+    <h1 calss="upper">HELLO, I'M ALINA</h1>
+    <p class="under">and it's my ePortfolio</p>
+    <p class="text">
+        As an acting student, I have had the opportunity to learn from a variety of teachers, each with their own unique approach to language learning. One experience that has impacted me the most was when I had a teacher who emphasized the importance of immersion. We would spend entire classes speaking only in the language we were learning, forcing us to think on our feet and truly engage with the language. It was challenging at first, but I quickly saw the benefits of this approach. I found myself becoming more comfortable with the language and more confident in my ability to communicate. This experience taught me that language learning is not just about memorizing vocabulary and grammar rules, but also about immersing yourself in the language and actively using it.
+    </p>
+</main>
+<script defer src="{{url_for('static', filename='js/index.js')}}"></script>
+{% endblock %}
